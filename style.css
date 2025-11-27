@@ -84,21 +84,22 @@ header {
 
 /* Logo */
 #lo {
-  width: 80px;
-  height: 80px;
-  border-radius: 45px;
+  width: 90px;
+  height: 90px;
+  border-radius: 25px;
   object-fit: cover;
   background-color: whitesmoke;
   transition: 0.3s;
   border-style: dashed;
+  margin-top: 31px;
 }
 
 /* small hover for logo */
 #lo:hover {
-  transform: scale(1.03);
+  transform: scale(1.08);
   filter: brightness(100%) contrast(120%) saturate(120%);
-  box-shadow: 0 0 25px rgba(110, 3, 26, 0.45), 0 0 35px rgba(146, 175, 16, 0.25);
-  border-color: blue;
+  box-shadow: 0 0 25px rgba(146, 2, 33, 0.45), 0 0 35px rgba(146, 175, 16, 0.25);
+  border-color: rgb(10, 10, 123);
 }
 
 /* Nav + header controls */
@@ -249,7 +250,7 @@ header {
 /* ------------------ Other IDs cleaned (mu2, m1, mu3..mu6, old) ------------------ */
 /* If you later add these sections, they will behave responsively */
 #m1, #mu2 {
-  display: block;
+  display: inline-block;
   margin: 12px 0;
   border-style: dotted;
   border-color: yellow;
@@ -322,4 +323,19 @@ h1 {
 a:focus, button:focus, input:focus {
   outline: 2px solid rgba(0,179,255,0.25);
   outline-offset: 2px;
+}
+
+#but{
+    text-transform: uppercase;
+    font-size: 20px;
+    
+}
+
+#but:hover{
+     transform: scale(1.02) skewX(-1deg);
+  filter: brightness(105%) contrast(115%) saturate(130%);
+  box-shadow: 0 0 18px rgba(12, 181, 80, 0.12), 0 0 28px rgba(0, 150, 255, 0.08);
+  border-color: rgb(172, 19, 73);
+  background-color: green;
+
 }
