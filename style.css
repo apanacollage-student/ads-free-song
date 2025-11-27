@@ -1,460 +1,325 @@
-#mu {
-    position: absolute;
-    left: 250px;
-    top: 250px;
-    border-style: double;
-    border-width: 10px;
-    border-radius: 10px;
-    border-color: aqua;
-
-
-
-
-}
-
-#mum2 {
-    position: relative;
-    left: 900px;
-    bottom: 85px;
-    display: inline-block;
-    
-    border-style: double;
-    border-width: 10px;
-    border-radius: 10%;
-   
-    border-color: aqua
-}
-
-#mu:hover,#mum2:hover {
-    transform: scale(-1.-1);
-    filter: brightness(100%) contrast(120%) saturate(150%);
-    box-shadow:
-        0 0 25px rgba(255, 0, 140, 0.8),
-        0 0 35px rgba(0, 150, 255, 0.8);
-
-    transform: skewX(-1deg);
-    transition: 0.10s;
-    border-color: blue;
-
-
-}
-
-
-
-
-#top {
-    position: absolute;
-    margin-bottom: 80px;
-    left: 150px;
-
-
-}
-
-#top2{
-    position: relative;
-    left: 820px;
-    bottom: 470px;
-    display: inline-block;
-    border-radius: 50px;
-}
-
-#top:hover,#top2:hover {
-   
-    filter: brightness(100%) contrast(120%) saturate(150%);
-    box-shadow:
-        0 0 25px rgba(121, 10, 71, 0.8),
-        0 0 35px rgba(11, 78, 126, 0.8);
-    background-color: rgb(52, 38, 202);
-
-}
-
-#m1 {
-
-    position: absolute;
-
-    margin-top: 40px;
-    right: 100px;
-    border-style: dotted;
-    border-color: yellow;
-
-
-}
-
-#mu2 {
-    position: absolute;
-    margin-top: 0px;
-    right: 800px;
-    border-style: dotted;
-    border-color: yellow;
-
-}
-
-#mu3 {
-    position: relative;
-    top: 350px;
-    left: 150px;
-    border-style: dotted;
-    border-top-left-radius: 20px;
-    display: inline-block;
-    border-color: #ff00c8;
-    padding: 1px;
-    border-radius: 10px;
-
-    
-
-}
-
-#mu4{
-    position:relative;
-    top: 350px;
-    display: inline-block;
-    border-style: dashed;
-    border-color: #ff00c8;
-    right:-290px;
-    
-}
-
-#mu5{
-    position: relative;
-    top: 370px;
-    left: 150px;
-    display: inline-block;
-    border-style: dotted;
-    border-color: red;
-}
-
-#mu6{
-    position: relative;
-    top: 370px;
-    left: 300px;
-    display: inline-block;
-    border-radius: 1px;
-    border-style: dotted;
-    border-color: red;
-}
-
-#mu3:hover, #mu4:hover,#mu2:hover,#m1:hover, #mu5:hover,#mu6:hover {
- transform: scale(-1.-1);
-    filter: brightness(100%) contrast(120%) saturate(150%);
-    box-shadow:
-        0 0 25px rgba(255, 0, 140, 0.8),
-        0 0 35px rgba(0, 150, 255, 0.8);
-
-    transform: skewX(-1deg);
-    transition: 0.10s;
-    border-color: blue;
-}
-
-
-/* old song ka style*/
-#old{
-    position: relative;
-    top: 50px;
-    left: 50px;
-    display: inline-block;
-    border-style: dotted;
-    border-color: #ff00c8;
-}
-
-#old:hover{
-    transform: scale(-1.-1);
-    filter: brightness(100%) contrast(120%) saturate(150%);
-    box-shadow:
-        0 0 25px rgba(255, 0, 140, 0.8),
-        0 0 35px rgba(0, 150, 255, 0.8);
-
-    transform: skewX(-1deg);
-    transition: 0.10s;
-    border-color: yellow;
-}
-
-
-
-
-
-
-/*muzic header*/
-header {
-    background-color: blueviolet;
-    position: relative;
-    width: -100px;
-    height: 100px;
-
-}
-
-#but {
-    position: relative;
-    top: 0px;
-    margin-left: 5px;
-    border-radius: 30px;
-    width: 100px;
-    height: 100px;
-    display: inline-block;
-    text-decoration: none;
-    
-    border-color: #ff00c8;
-    background-color: aqua;
-    text-transform: capitalize;
-    background: transparent;
-    font-size:28px;
-   
-    text-transform: uppercase;
-    
-    
-   
-    
-}
-
-
-
-
-
-#but:hover {
- transform: scale(-1.-1);
-    filter: brightness(100%) contrast(120%) saturate(150%);
-    box-shadow:
-        0 0 25px rgba(255, 0, 140, 0.8),
-        0 0 35px rgba(224, 150, 12, 0.8);
-
-    transform: skewX(-1deg);
-    transition: 0.10s;
-    border-color: rgb(255, 0, 8);
-    
-
-}
-
-h1 {
-    text-align: center;
-    display: inline-block;
-    position: absolute;
-    right: 600px;
-    text-transform: capitalize;
-    color: aqua;
-    border-style: solid;
-    border-radius: 10px;
-    border-color: #ff00c8;
-    background-color: black;
-}
-
-h1:hover {
-
-    transform: scale(-1.-1);
-    filter: brightness(100%) contrast(120%) saturate(150%);
-
-
-    border-color: blue;
-    background-color: red;
-
-
-}
-
-#lo {
-    width: 100px;
-    height: 100px;
-    border-radius: 45px;
-    object-fit: cover;
-    background-color: whitesmoke;
-    transition: 0.3s;
-    margin-top: 35px;
-    border-style: dashed;
-}
-
-#lo:hover {
-
-    transform: scale(-1.-1);
-    filter: brightness(100%) contrast(120%) saturate(150%);
-    box-shadow:
-        0 0 25px rgba(110, 3, 26, 0.8),
-        0 0 35px rgba(146, 175, 16, 0.8);
-
-
-    border-color: blue;
-    border-style: dashed;
-
-}
-
-
-
-
-/*this is use header chat gpt */
-
-:root {
-    --bg: #071124;
-    --panel: rgba(255, 255, 255, 0.03);
-    --muted: rgba(255, 255, 255, 0.6);
-    --accent1: #ff00c8;
-    /* pink */
-    --accent2: #00b3ff;
-    /* blue */
-    --glass: rgba(255, 255, 255, 0.04);
-    --radius: 12px;
-    --header-h: 72px;
-    font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
-}
-
+/* -----------------------
+   CLEAN & RESPONSIVE CSS
+   IDs kept exactly same
+   ----------------------- */
+
+/* RESET */
 * {
-    box-sizing: border-box
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html,
+/* Root variables (kept from your original) */
+:root {
+  --bg: #071124;
+  --panel: rgba(255, 255, 255, 0.03);
+  --muted: rgba(255, 255, 255, 0.6);
+  --accent1: #ff00c8;
+  --accent2: #00b3ff;
+  --glass: rgba(255, 255, 255, 0.04);
+  --radius: 12px;
+  --header-h: 72px;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+/* Base body */
+html, body {
+  height: 100%;
+}
+
 body {
-    height: 100%
+  margin: 0;
+  background: linear-gradient(180deg, #030416 0%, var(--bg) 100%);
+  color: #e9f0ff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  line-height: 1.4;
 }
 
-body {
-    margin: 0;
-    background: linear-gradient(180deg, #030416 0%, var(--bg) 100%);
-    color: #e9f0ff;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-size: 16px;
+/* Make any images inside your IDs responsive */
+#mu img,
+#mum2 img,
+#mu3 img,
+#mu4 img,
+#mu5 img,
+#mu6 img,
+#old img,
+#lo {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* Header */
+/* ------------------ Header (kept & fixed) ------------------ */
+header {
+  background-color: blueviolet;
+  width: 100%; /* fixed -100px issue */
+  position: relative;
+  height: 100px;
+}
+
 .site-header {
-    position: sticky;
-    top: 0;
-    z-index: 40;
-    backdrop-filter: blur(6px);
-    background: linear-gradient(180deg, rgba(7, 17, 36, 0.65), rgba(7, 17, 36, 0.35));
-    border-bottom: 1px solid rgba(255, 255, 255, 0.04);
-    box-shadow: 0 6px 24px rgba(2, 6, 23, 0.6);
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  backdrop-filter: blur(6px);
+  background: linear-gradient(180deg, rgba(7, 17, 36, 0.65), rgba(7, 17, 36, 0.35));
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+  box-shadow: 0 6px 24px rgba(2, 6, 23, 0.6);
 }
 
 .header-inner {
-    max-width: 1100px;
-    margin: 0 auto;
-    height: var(--header-h);
-    display: flex;
-    align-items: center;
-    gap: 28px;
-    padding: 10px 18px;
+  max-width: 1100px;
+  margin: 0 auto;
+  height: var(--header-h);
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 10px 18px;
 }
 
+/* Logo */
+#lo {
+  width: 80px;
+  height: 80px;
+  border-radius: 45px;
+  object-fit: cover;
+  background-color: whitesmoke;
+  transition: 0.3s;
+  border-style: dashed;
+}
 
-/* Nav */
+/* small hover for logo */
+#lo:hover {
+  transform: scale(1.03);
+  filter: brightness(100%) contrast(120%) saturate(120%);
+  box-shadow: 0 0 25px rgba(110, 3, 26, 0.45), 0 0 35px rgba(146, 175, 16, 0.25);
+  border-color: blue;
+}
+
+/* Nav + header controls */
 .main-nav {
-    margin-left: 8px;
-    display: flex;
-    gap: 14px;
-    align-items: center;
-    flex: 1;
+  margin-left: 8px;
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  flex: 1;
 }
 
 .main-nav a {
-    color: var(--muted);
-    text-decoration: none;
-    padding: 8px 10px;
-    border-radius: 8px;
-    transition: all .18s ease;
-    font-weight: 600;
+  color: var(--muted);
+  text-decoration: none;
+  padding: 8px 10px;
+  border-radius: 8px;
+  transition: all .18s ease;
+  font-weight: 600;
 }
 
 .main-nav a:hover {
-    color: #fff;
-    background: linear-gradient(90deg, rgba(255, 0, 200, 0.06), rgba(0, 179, 255, 0.06));
-    transform: translateY(-2px);
-    box-shadow: 0 8px 26px rgba(0, 179, 255, 0.06);
+  color: #fff;
+  background: linear-gradient(90deg, rgba(255, 0, 200, 0.06), rgba(0, 179, 255, 0.06));
+  transform: translateY(-2px);
+  box-shadow: 0 8px 26px rgba(0, 179, 255, 0.06);
 }
 
-/* Controls */
 .header-controls {
-    display: flex;
-    align-items: center;
-    gap: 12px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 
-/* Search */
-.search {
-    width: 220px;
-    min-width: 120px;
-}
-
+.search { width: 220px; min-width: 120px; }
 .search input {
-    width: 100%;
-    padding: 9px 12px;
-    border-radius: 999px;
-    border: 1px solid rgba(255, 255, 255, 0.04);
-    background: var(--glass);
-    color: #eaf4ff;
-    outline: none;
-    transition: box-shadow .2s ease, transform .12s ease;
-    font-size: 14px;
+  width: 100%;
+  padding: 9px 12px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.04);
+  background: var(--glass);
+  color: #eaf4ff;
+  outline: none;
+  transition: box-shadow .2s ease, transform .12s ease;
+  font-size: 14px;
 }
-
 .search input:focus {
-    box-shadow: 0 6px 30px rgba(0, 179, 255, 0.12), 0 0 6px rgba(255, 0, 200, 0.06);
-    transform: translateY(-2px);
+  box-shadow: 0 6px 30px rgba(0,179,255,0.12), 0 0 6px rgba(255,0,200,0.06);
+  transform: translateY(-2px);
 }
 
-/* Ad-Free Badge */
 .badges .adfree {
-    display: inline-block;
-    padding: 6px 10px;
-    background: linear-gradient(90deg, rgba(255, 0, 200, 0.12), rgba(0, 179, 255, 0.12));
-    color: #fff;
-    border-radius: 999px;
-    font-weight: 700;
-    font-size: 13px;
-    letter-spacing: 0.3px;
-    box-shadow: 0 6px 24px rgba(0, 179, 255, 0.06);
+  display: inline-block;
+  padding: 6px 10px;
+  background: linear-gradient(90deg, rgba(255,0,200,0.12), rgba(0,179,255,0.12));
+  color: #fff;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.3px;
+  box-shadow: 0 6px 24px rgba(0, 179, 255, 0.06);
 }
 
-/* Subscribe Button */
 .subscribe-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
-    padding: 8px 14px;
-    background: linear-gradient(90deg, var(--accent1), var(--accent2));
-    color: #061022;
-    font-weight: 800;
-    border-radius: 999px;
-    text-decoration: none;
-    box-shadow: 0 10px 30px rgba(0, 179, 255, 0.16), 0 4px 16px rgba(255, 0, 200, 0.12);
-    transform: translateY(0);
-    transition: transform .18s ease, box-shadow .18s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 14px;
+  background: linear-gradient(90deg, var(--accent1), var(--accent2));
+  color: #061022;
+  font-weight: 800;
+  border-radius: 999px;
+  text-decoration: none;
+  box-shadow: 0 10px 30px rgba(0,179,255,0.16), 0 4px 16px rgba(255,0,200,0.12);
+  transform: translateY(0);
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+.subscribe-btn:hover { transform: translateY(-4px); }
+
+/* ------------------ Main content layout (grid) ------------------ */
+
+/* container used in your updated HTML */
+.grid-box {
+  width: 100%;
+  max-width: 1100px;
+  margin: 30px auto;
+  padding: 0 16px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  align-items: start;
 }
 
-.subscribe-btn .dot {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background: #fff;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+/* each card wrapper */
+.card {
+  background: transparent;
+  border-radius: 12px;
+  padding: 10px;
+  min-height: 200px;
 }
 
-.subscribe-btn:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 18px 40px rgba(0, 179, 255, 0.18), 0 6px 24px rgba(255, 0, 200, 0.12);
+/* IDs kept same, but position changed to flow-based layout */
+#mu, #mum2 {
+  display: block;
+  padding: 14px;
+  border-style: double;
+  border-width: 6px;
+  border-color: aqua;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+  background: rgba(255,255,255,0.01);
 }
 
-/* Responsive */
-@media (max-width:900px) {
-    .main-nav {
-        display: none;
-    }
-
-    .search {
-        display: none;
-    }
-
-    .header-inner {
-        padding: 10px 12px;
-    }
-
-    .logo .brand {
-        display: none;
-    }
+/* Hover effect: fixed and readable */
+#mu:hover, #mum2:hover {
+  transform: scale(1.03) skewX(-1deg);
+  filter: brightness(105%) contrast(115%) saturate(130%);
+  box-shadow:
+    0 0 18px rgba(255, 0, 140, 0.15),
+    0 0 28px rgba(0, 150, 255, 0.12);
+  border-color: blue;
 }
 
-@media (max-width:520px) {
-    .subscribe-btn {
-        padding: 8px 10px;
-        font-size: 14px;
-    }
+/* Ensure images inside keep nice rounded corners */
+#mu img, #mum2 img {
+  border-radius: 8px;
+  max-width: 450px; /* keeps desktop size reasonable */
+  width: 100%;
+  height: auto;
+  margin: 12px auto 0;
+  display: block;
+}
 
-    .badges .adfree {
-        display: none;
-    }
+/* Numbers styling (#top / #top2) */
+#top, #top2 {
+  list-style: none;
+  font-size: 28px;
+  color: #f4e443; /* bright number color */
+  margin-bottom: 6px;
+  font-weight: 800;
+  text-align: left;
+  padding-left: 6px;
+}
+
+/* Make sure top/top2 are flow elements (not absolute) */
+#top, #top2 { position: static; }
+
+/* ------------------ Other IDs cleaned (mu2, m1, mu3..mu6, old) ------------------ */
+/* If you later add these sections, they will behave responsively */
+#m1, #mu2 {
+  display: block;
+  margin: 12px 0;
+  border-style: dotted;
+  border-color: yellow;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+#mu3, #mu4, #mu5, #mu6, #old {
+  display: inline-block;
+  padding: 8px;
+  margin: 10px;
+  border-radius: 10px;
+  vertical-align: top;
+  text-align: center;
+}
+
+/* colors similar to original */
+#mu3, #mu4 { border-style: dotted; border-color: #ff00c8; }
+#mu4 { border-style: dashed; }
+#mu5, #mu6, #old { border-style: dotted; border-color: red; }
+
+/* Hover for those items */
+#mu3:hover, #mu4:hover, #mu2:hover, #m1:hover, #mu5:hover, #mu6:hover, #old:hover {
+  transform: scale(1.02) skewX(-1deg);
+  filter: brightness(105%) contrast(115%) saturate(130%);
+  box-shadow: 0 0 18px rgba(255, 0, 140, 0.12), 0 0 28px rgba(0, 150, 255, 0.08);
+  border-color: blue;
+}
+
+/* Misc heading and elements */
+h1 {
+  text-align: center;
+  display: block;
+  margin: 10px auto;
+  text-transform: capitalize;
+  color: aqua;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #ff00c8;
+  background-color: black;
+  padding: 6px 12px;
+}
+
+/* ------------------ Responsive rules ------------------ */
+@media (max-width: 900px) {
+  .main-nav { display: none; }
+  .search { display: none; }
+  .header-inner { padding: 10px 12px; }
+
+  .grid-box {
+    grid-template-columns: 1fr; /* single column on small screens */
+    gap: 20px;
+    padding: 0 12px;
+  }
+
+  #top, #top2 { text-align: center; font-size: 26px; }
+}
+
+@media (max-width: 520px) {
+  .subscribe-btn { padding: 8px 10px; font-size: 14px; }
+  .badges .adfree { display: none; }
+
+  #lo { width: 70px; height: 70px; }
+  #mu img, #mum2 img { max-width: 100%; }
+  #mu, #mum2 { padding: 12px; border-width: 5px; }
+  #top, #top2 { font-size: 22px; }
+}
+
+/* small accessibility tweak: focus outlines */
+a:focus, button:focus, input:focus {
+  outline: 2px solid rgba(0,179,255,0.25);
+  outline-offset: 2px;
 }
