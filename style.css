@@ -181,12 +181,12 @@ header {
 /* ------------------ Main content layout (grid) ------------------ */
 
 /* container used in your updated HTML */
-.grid-box {
+#FLEX {
   width: 100%;
   max-width: 1100px;
   margin: 30px auto;
   padding: 0 16px;
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(2, 1fr);
   gap: 30px;
   align-items: start;
@@ -201,7 +201,7 @@ header {
 }
 
 /* IDs kept same, but position changed to flow-based layout */
-#mu, #mum2 {
+#mu, #mum2,#mum3 {
   display: block;
   padding: 14px;
   border-style: double;
@@ -214,7 +214,7 @@ header {
 }
 
 /* Hover effect: fixed and readable */
-#mu:hover, #mum2:hover {
+#mu:hover, #mum2:hover,#mum3:hover {
   transform: scale(1.03) skewX(-1deg);
   filter: brightness(105%) contrast(115%) saturate(130%);
   box-shadow:
@@ -224,7 +224,7 @@ header {
 }
 
 /* Ensure images inside keep nice rounded corners */
-#mu img, #mum2 img {
+#mu img, #mum2 img,#mum3 img {
   border-radius: 8px;
   max-width: 450px; /* keeps desktop size reasonable */
   width: 100%;
@@ -234,7 +234,7 @@ header {
 }
 
 /* Numbers styling (#top / #top2) */
-#top, #top2 {
+#top, #top2,#top3 {
   list-style: none;
   font-size: 28px;
   color: #f4e443; /* bright number color */
@@ -249,7 +249,7 @@ header {
 
 /* ------------------ Other IDs cleaned (mu2, m1, mu3..mu6, old) ------------------ */
 /* If you later add these sections, they will behave responsively */
-#m1, #mu2 {
+#m1, #mu2,#mum3 {
   display: inline-block;
   margin: 12px 0;
   border-style: dotted;
@@ -338,4 +338,13 @@ a:focus, button:focus, input:focus {
   border-color: rgb(172, 19, 73);
   background-color: green;
 
+}
+
+
+/******************** footer*********/
+#foo{
+  background-color: #ff00c8;
+  color: #061022;
+  text-align: center;
+  text-transform: uppercase;
 }
